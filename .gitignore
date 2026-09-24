@@ -1,0 +1,49 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+config/local.*
+*.local.json
+*.pem
+*.key
+secrets/
+
+# Local data, generated output, and conversations
+data/
+output/
+logs/
+sessions/
+*.dbf
+*.fpt
+*.cdx
+*.dbc
+*.dct
+*.dcx
+
+# VFP compiled artifacts and machine state
+*.fxp
+*.app
+*.exe
+*.dll
+*.ocx
+*.err
+*.bak
+*.tmp
+*.tbk
+*.mpx
+*.qpx
+*.vbr
+*.tlb
+foxuser.*
+
+# Editors and future bridge builds
+.vs/
+bin/
+obj/
+node_modules/
+Thumbs.db
+Desktop.ini
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
