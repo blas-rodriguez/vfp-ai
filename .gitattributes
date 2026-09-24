@@ -1,0 +1,13 @@
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.prg text eol=crlf
+*.h text eol=crlf
+*.scx binary
+*.sct binary
+*.vcx binary
+*.vct binary
+*.frx binary
+*.frt binary
+*.mnx binary
+*.mnt binary

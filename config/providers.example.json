@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "status": "design-only-not-loaded-by-prototype",
+  "activeProvider": "demo",
+  "targetLanguage": "Visual FoxPro 9.0",
+  "providers": {
+    "demo": {
+      "enabled": true,
+      "requiresNetwork": false
+    },
+    "openai": {
+      "enabled": false,
+      "model": "",
+      "credentialReference": "VFP-AI/OpenAI"
+    },
+    "anthropic": {
+      "enabled": false,
+      "model": "",
+      "credentialReference": "VFP-AI/Anthropic"
+    }
+  }
+}
